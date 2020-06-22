@@ -1,0 +1,153 @@
+/** position: fixed; to fix anything on the screen**/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Piedra', cursive;
+  margin: 20px auto 0 auto;
+  text-shadow: 3px 3px grey;
+  font-size: 3.125rem; /** 100% = 16px = 1em **/
+  /** rem would stick to the root font size without being affected by
+  by the body font size **/
+  color: #086972
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.875rem;
+  color: #086972;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #a6dcef;
+  border-width: 5px;
+  width: 5rem;
+  margin: 50px auto;
+
+}
+
+.main-skill {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #a6dcef;
+  padding-top: 100px;
+  position: relative;
+}
+
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #11999E;
+  padding: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 52px;
+  right: 300px;
+}
+
+.cont {
+  width: 30%;
+  margin: auto;
+}
+
+p {
+  margin: 20px auto;
+}
+
+.computer {
+  border-radius: 100%;
+  width: 25%;
+  float: right; /** float is for wrapping around something, while clear: like an anti float. to make sure it doesn't rap around the image **/
+  margin-left: 30px;
+}
+
+.developer {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bona {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+a {
+  color: #184d47;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.btn {
+  line-height: 4;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-raduis: 8;
+  -moz-border-radius: 8;
+  border-radius: 69px;
+  font-family: 'Merriweather', serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb,#2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.foot {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0 0;
+}
